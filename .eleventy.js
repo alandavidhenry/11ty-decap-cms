@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
       input: 'src',
       output: 'dist'
     },
-    markdownTemplateEngine: 'nlk',
+    markdownTemplateEngine: 'njk',
     templateFormats: ['njk', 'md']
   }
 }
